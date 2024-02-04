@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5fa
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    max-width: 1024px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+    text-decoration-line: overline;
+    padding: 2rem;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#trabajos {
+    text-align: center;
+}
+#servicios {
+    text-align: center;
+}
+
+
+#contacto {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+.carousel-container {
+    text-align: center;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes tracking-in-contract-bck-top{0%{letter-spacing:1em;transform:translateZ(400px) translateY(-300px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+
+.tracking-in-contract-bck-top{animation:tracking-in-contract-bck-top 1s cubic-bezier(.215,.61,.355,1.000) both}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        text-align: center !important;
+    }
+    .servicios-fila {
+    width: 100%;
+    }
+
+}
